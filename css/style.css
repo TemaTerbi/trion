@@ -502,4 +502,73 @@ button {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(66.15%, #0E0E0E));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
 }
+
+.features {
+  margin-top: 162px;
+}
+
+.h2 {
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 27px;
+}
+
+.about-item {
+  margin-top: 30px;
+}
+
+.about__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FFFFFF;
+}
+
+.item__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item__name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.item__image {
+  margin-right: 10px;
+}
+
+.item__discription {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
 /*# sourceMappingURL=style.css.map */
