@@ -833,4 +833,99 @@ button {
 .longcard__btn {
   margin-left: 104px;
 }
+
+footer {
+  color: #FFFFFF;
+  padding: 107px 274px;
+}
+
+.navfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 75px;
+}
+
+.navfoot__header {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.navfoot__item {
+  font-size: 16px;
+  margin-bottom: 19px;
+}
+
+.navfoot__item:hover {
+  color: #ff00f2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footright {
+  margin-right: 220px;
+}
+
+.footwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info__adress {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 21px;
+}
+
+.info__telephone {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img {
+  margin-right: 10px;
+}
+
+.social {
+  margin-top: 34px;
+}
+
+.social__img {
+  margin-right: 24px;
+  cursor: pointer;
+  fill: #FFFFFF;
+}
+
+.twit:hover {
+  fill: #1DA1F2;
+}
 /*# sourceMappingURL=style.css.map */
