@@ -391,7 +391,7 @@ button {
   transition: 0.3s;
 }
 
-.center {
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
