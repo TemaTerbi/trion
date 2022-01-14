@@ -461,7 +461,6 @@ button {
 
 .btnbig {
   padding: 20px 30px 20px 30px;
-  margin-left: 35px;
 }
 
 .btnbig:hover {
@@ -469,6 +468,10 @@ button {
   color: #ff00f2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.left {
+  margin-right: 35px;
 }
 
 .btnblue {
@@ -647,5 +650,74 @@ button {
 
 .littlebottom {
   margin-bottom: 48px;
+}
+
+.gallery {
+  margin-top: 150px;
+}
+
+.gallery__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 44px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 44px;
+}
+
+.row-item {
+  border-radius: 12px;
+  margin-right: 33px;
+  cursor: pointer;
+}
+
+.partners {
+  margin-top: 150px;
+}
+
+.partners__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partners__item {
+  margin-right: 74px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.partners__btn {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
