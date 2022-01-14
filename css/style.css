@@ -571,4 +571,81 @@ button {
   line-height: 24px;
   font-weight: normal;
 }
+
+.content {
+  margin-top: 150px;
+}
+
+.h3 {
+  font-size: 52px;
+  font-weight: normal;
+}
+
+.card {
+  margin-top: 44px;
+  background-color: #FFFFFF;
+  width: 476px;
+  max-height: 550px;
+  border-radius: 10px;
+}
+
+.card__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card__btn {
+  margin-bottom: 57px;
+}
+
+.card__foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-head {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-head__name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-head__discription {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 67px;
+}
+
+.secondcard {
+  margin-bottom: 0;
+}
+
+.littlebottom {
+  margin-bottom: 48px;
+}
 /*# sourceMappingURL=style.css.map */
